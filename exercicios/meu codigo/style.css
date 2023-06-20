@@ -1,0 +1,42 @@
+@charset "UTF-8"
+
+*{
+    font-family:'Work Sans', Helvetica, sans-serif;
+    /*height: 100%;*/
+}
+
+
+
+
+body{
+    background-image: linear-gradient(to right,#0369cf41,#0067ce41,#0369cf41); 
+}
+main{
+    background-color: #ffff;
+    border-radius: 10px;
+    box-shadow: 5px 5 px 5 px black;
+    width:600px;
+    margin:auto;
+}
+
+h1{
+    color:#FF7500
+}
+
+h2{
+color:blue;
+
+}
+
+
+
+
+
+
+
+
+
+p{
+    text-align: justify;
+
+}
