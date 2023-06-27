@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio2</title>
-</head>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            width: 300px;
+            height: 100px;
+            text-align: center;
+        }
+        td{
+            border:1px solid black;
+            padding: 5px;
+            vertical-align:bottom
+        }
+        td.id {
+           text-align: center;
+        }
+        td.num{
+            text-align: center;
+        }
+        td.id2{
+
+        }
+    </style>
 <body>
     <table>
-        
+       <tr>
+        <td class="num" colspan="4" >A</td>
+        <td></td>
+        </tr> 
+        <tr>
+             <td rowspan="4">C</td>
+             <td>D</td>
+             <td>E</td>
+             <td>F</td>
+          <td class="id2" rowspan="4">B</td>
+        </tr>
+        <tr >
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>L</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td colspan="4" class="id">N</td>
+        </tr>
+       
     </table>
     
 </body>
