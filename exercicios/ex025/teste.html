@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:rgba(0, 128, 0, 0.397) ;
+            color:black;
+            font-family: Arial, Helvetica, sans-serif;
+            
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Formulario</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+    <fieldset>
+        <legend>Formulario de Pesquisa</legend>
+        <input type="radio" name="filmes" id="isxser"><label for="isxser">Series</label>
+        <input type="radio" name="filmes" id="isxfil"> <label for="isxfil">Filmes</label>
+        <input type="search" name="espes" id="iexpes" size="9"><label for="iexpes">Pesquise aqui</label><br>
+    
+
+
+    </fieldset>
+
+    <fieldset>
+        <input type="checkbox" name="esser" id="iexser"> <label for="iexser">Series</label><br>
+        <input type="checkbox" name="esfil" id="iexfil"> <label for="iexfil">Filmes</label><br>
+        <input type="checkbox" name="esanim" id="iexanim"> <label for="iexanim">Animes</label><br>
+        <input type="checkbox" name="esser" id="iexser"> <label for="iexser">Terror</label><br>
+        <input type="checkbox" name="esser" id="iexser"> <label for="iexser">Comedia</label><br>
+
+
+    </fieldset>
+    <fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </fieldset>
+    </form>
+</body>
+</html>
