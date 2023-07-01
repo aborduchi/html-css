@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*estilo para impressora*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header{
+    background-color: yellow;
+    text-align: center;
+}
+header>h1{
+    text-align: center;
+}
+menu ul{
+    list-style-type: none;
+    background-color:darkgray;
+    text-align: left;
+
+}
+
+menu li{
+    background-color: darkgray;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
