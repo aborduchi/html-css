@@ -13,7 +13,7 @@
         
     
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Menu Site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()" >
@@ -40,16 +40,21 @@
         </article>
     </main>
     <script>
+        function mudouTamanho(){
+            if (window.innerWidth >= 768)
+            intens.style.display = 'block'
+            else {
+                itens.style.display = 'none'
+            }
+        
+        }
         function clickMenu() {
          if (intens.style.display == 'block') {
             intens.style.display = 'none'
 }           else {
     intens.style.display = 'block'
 }
-      
-           
-        
-
+                  
         }
     </script>
     
